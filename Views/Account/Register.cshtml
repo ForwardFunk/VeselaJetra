@@ -1,0 +1,32 @@
+﻿@model JeeBerryHome3.Models.RegisterModel
+@{
+    ViewBag.Title = "Registracija";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>Kreirajte novi korisnicki nalog.</h2>
+</hgroup>
+
+    <fieldset>
+        <legend>Registration Form</legend>
+        <ol>
+            <li>
+                <label>Korisnicko ime:</label>
+                <input id="korisnickoIme" autofocus />
+            </li>
+            <li>
+                <label>Šifra:</label>
+                <input id="sifra" />
+            </li>
+            <li>
+                <label>Potvrdi šifru:</label>
+                <input id="sifraPonovljena" />
+            </li>
+        </ol>
+        <button class="btn btn-default">Registruj me</button>
+    </fieldset>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

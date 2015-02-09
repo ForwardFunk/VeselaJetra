@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Ulaz";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+<section id="loginForm">
+<h2></h2>
+    <fieldset>
+        <legend>Log in Form</legend>
+        <ol>
+            <li>
+                <label>Korisnicko ime:</label>
+                <input id="korisnickoIme" autofocus/>
+            </li>
+            <li>
+                <label>Šifra:</label>
+                <input id="sifra"/>
+            </li>
+
+        </ol>
+        <button class="btn btn-default">Prijavi me</button>
+        <br><br>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Registrujte", "Register") se ako nemate otvoren korisnicki nalog.
+    </p>
+</section>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
