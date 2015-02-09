@@ -11,6 +11,7 @@ namespace JeeBerryHome3.Models
         public String Name { get; set; }
         public String Description { get; set; }
         public String ImageUrl { get; set; }
+        public String Type { get; set; }
         
         //n-m sa menijem
         public List<Menu> Owners { get; set; }

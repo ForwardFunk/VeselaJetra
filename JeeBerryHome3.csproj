@@ -185,7 +185,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\BarsController.cs" />
+    <Compile Include="Controllers\KafanasController.cs" />
+    <Compile Include="Controllers\GraphClientWrapper.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
@@ -337,9 +338,11 @@
     <Content Include="Views\Home\PreviousExams.cshtml" />
     <Content Include="Views\Home\Messages.cshtml" />
     <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\Kafanas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Bars\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
