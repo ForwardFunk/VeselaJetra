@@ -16,7 +16,7 @@ namespace JeeBerryHome3.Controllers
 
         public ActionResult Index()
         {
-            GraphClient client = GraphClientWrapper.GetInstance();
+            GraphClient client = GraphClientWrapper.ConnectToDb();
             var query = new Neo4jClient.Cypher.CypherQuery("start n=node(*) where has(n.Username) and has(n.Name) and has(n.Surname) and has(n.ImageUrl) return n",
                                                             new Dictionary<string, object>(), CypherResultMode.Set);
 
@@ -43,7 +43,7 @@ namespace JeeBerryHome3.Controllers
         {
             //sliku moras ovde, samo da ti prekopitam kod
             //sad mozes sve sem slike
-            GraphClient client = GraphClientWrapper.GetInstance();
+            GraphClient client = GraphClientWrapper.ConnectToDb();
             var query = new Neo4jClient.Cypher.CypherQuery("start n=node(*) where has(n.Username) and n.Username =~ \"" + userName + "\" return n",
                                                             new Dictionary<string, object>(), CypherResultMode.Set);
 
@@ -75,7 +75,7 @@ namespace JeeBerryHome3.Controllers
             if (!sifra.Equals(ponovljenaSifra, StringComparison.OrdinalIgnoreCase))
                 Response.Write("error_password");
 
-            GraphClient client = GraphClientWrapper.GetInstance();
+            GraphClient client = GraphClientWrapper.ConnectToDb();
 
             User toAdd = new User();
             toAdd.Username = korisnickoIme;

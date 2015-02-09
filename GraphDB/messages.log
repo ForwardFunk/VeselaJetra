@@ -1031,3 +1031,807 @@ Storage files: (filename : modification date - size)
 2015-02-08 22:54:33.548+0000 INFO  [o.n.s.CommunityNeoServer]: Server started on: http://localhost:7474/
 2015-02-08 22:54:33.548+0000 INFO  [o.n.s.CommunityNeoServer]: Remote interface ready and available at [http://localhost:7474/]
 2015-02-08 22:54:33.548+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2015-02-09 15:30:32.093+0000 INFO  [o.n.s.CommunityNeoServer]: Setting startup timeout to: 120000ms based on -1
+2015-02-09 15:30:32.100+0000 INFO  [o.n.k.InternalAbstractGraphDatabase]: No locking implementation specified, defaulting to 'community'
+2015-02-09 15:30:32.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2015-02-09 15:30:32.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2015-02-09 15:30:32.100+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=24M
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipgroupstore.db.mapped_memory=0M
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=6M
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=28M
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=21M
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=24M
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2015-02-09 15:30:32.101+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2015-02-09 15:30:32.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 4.00 GB
+2015-02-09 15:30:32.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 3.60 GB
+2015-02-09 15:30:32.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 219.71 MB
+2015-02-09 15:30:32.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 4.00 GB
+2015-02-09 15:30:32.102+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 3.96 GB
+2015-02-09 15:30:32.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2015-02-09 15:30:32.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 78.08 MB
+2015-02-09 15:30:32.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 126.50 MB
+2015-02-09 15:30:32.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 455.25 MB
+2015-02-09 15:30:32.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2015-02-09 15:30:32.103+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2015-02-09 15:30:32.104+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.25 MB, used=1017.19 kB, max=48.00 MB, threshold=0.00 B
+2015-02-09 15:30:32.104+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=76.50 MB, used=32.51 MB, max=155.75 MB, threshold=?
+2015-02-09 15:30:32.104+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=7.50 MB, used=352.08 kB, max=7.50 MB, threshold=?
+2015-02-09 15:30:32.105+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=42.50 MB, used=15.56 MB, max=341.25 MB, threshold=0.00 B
+2015-02-09 15:30:32.106+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=33.50 MB, used=28.09 MB, max=64.00 MB, threshold=0.00 B
+2015-02-09 15:30:32.106+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2015-02-09 15:30:32.106+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 8; version: 6.2; arch: x86; cpus: 4
+2015-02-09 15:30:32.106+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 7384@HyperWarp
+2015-02-09 15:30:32.106+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2015-02-09 15:30:32.106+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Prague
+2015-02-09 15:30:32.106+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2015-02-09 15:30:32.107+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) Server VM
+2015-02-09 15:30:32.107+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2015-02-09 15:30:32.107+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.55-b03
+2015-02-09 15:30:32.107+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot Tiered Compilers
+2015-02-09 15:30:32.107+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_(x86)_neo4j_community_bin_neo4j-community.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe, -Dexe4j.processCommFile=C:\Users\Pavle\AppData\Local\Temp\e4j_p7384.tmp, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;D:\app\Pavle\product\11.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Graphviz2.38\bin\dot.exe;D:\Personal\Projekti\Graphics programming\ArcSynthesis\Tutorial 0.3.8\premake4.exe;;c:\program files (x86)\java\jdk1.7.0_55\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Xmx512m]
+2015-02-09 15:30:32.107+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/localedata.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/dnsns.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/bin/neo4j-desktop-2.1.7.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunpkcs11.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] C:\Program Files (x86)\Neo4j Community\.install4j\i4jruntime.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunjce_provider.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\sunrsasign.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\classes
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/jaccess.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] C:\Program Files (x86)\Neo4j Community\bin\neo4j-desktop-2.1.7.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/bin/
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunec.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/.install4j/i4jruntime.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\resources.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\charsets.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/zipfs.jar
+2015-02-09 15:30:32.112+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunmscapi.jar
+2015-02-09 15:30:32.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\rt.jar
+2015-02-09 15:30:32.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jce.jar
+2015-02-09 15:30:32.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/access-bridge-32.jar
+2015-02-09 15:30:32.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jfr.jar
+2015-02-09 15:30:32.113+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jsse.jar
+2015-02-09 15:30:32.113+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2015-02-09 15:30:32.114+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\ProgramData\Oracle\Java\javapath
+2015-02-09 15:30:32.114+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+2015-02-09 15:30:32.115+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin
+2015-02-09 15:30:32.116+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp
+2015-02-09 15:30:32.116+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\app\Pavle\product\11.2.0\client_1\BIN
+2015-02-09 15:30:32.117+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2015-02-09 15:30:32.117+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2015-02-09 15:30:32.118+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2015-02-09 15:30:32.119+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2015-02-09 15:30:32.119+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft\Web Platform Installer
+2015-02-09 15:30:32.120+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0
+2015-02-09 15:30:32.121+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit
+2015-02-09 15:30:32.122+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft SQL Server\110\Tools\Binn
+2015-02-09 15:30:32.122+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Git\cmd
+2015-02-09 15:30:32.123+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin
+2015-02-09 15:30:32.123+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Windows Live\Shared
+2015-02-09 15:30:32.123+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Graphviz2.38\bin\dot.exe
+2015-02-09 15:30:32.124+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Personal\Projekti\Graphics programming\ArcSynthesis\Tutorial 0.3.8\premake4.exe
+2015-02-09 15:30:32.124+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Neo4j Community\bin
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Java\jdk1.7.0_55\jre\bin
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.moduleName = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.processCommFile = C:\Users\Pavle\AppData\Local\Temp\e4j_p7384.tmp
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.semaphoreName = Local\c:_program_files_(x86)_neo4j_community_bin_neo4j-community.exe
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = c:\program files (x86)\java\jdk1.7.0_55\jre\bin
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country.format = RS
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.consoleCodepage = cp0
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2015-02-09 15:30:32.125+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script = 
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = 
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.exeDir = C:\Program Files (x86)\Neo4j Community\bin\
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = C:\Program Files (x86)\Neo4j Community\bin
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script.format = Latn
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.tempDir = 
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = Cp1250
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.awt.enableExtraMouseButtons = true
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.launcherId = 24
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot Tiered Compilers
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.isInstall4j = true
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.swt = false
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = C:\Users\Pavle
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Prague
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = Cp1250
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.launcher = desktop
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = Pavle
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 32
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.launchName = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:32.126+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language.format = sr
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.unextractedPosition = 0
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.appDir = C:\Program Files (x86)\Neo4j Community\
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+2015-02-09 15:30:32.127+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2015-02-09 15:30:32.173+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Kernel Debug Network Adapter:
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller:
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:9455:d891:20fa:eca3%3
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter:
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.0.11
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:a992:df9d:c154:a79%4
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth Device (Personal Area Network):
+2015-02-09 15:30:32.174+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:7ca8:f72d:f991:76f3%5
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth Device (RFCOMM Protocol TDI):
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:c8b7:f5eb:d591:9b9d%7
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Teredo Tunneling Pseudo-Interface:
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 2001:0:9d38:6abd:343f:399:3f57:fff4
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:343f:399:3f57:fff4%8
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #2:
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:5efe:c0a8:b%9
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #5:
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:32.175+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-Virtual WiFi Filter Driver-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-Native WiFi Filter Driver-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-QoS Packet Scheduler-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:32.176+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2015-02-09 15:30:32.184+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names non clean shutdown detected
+2015-02-09 15:30:32.184+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-02-09 15:30:32.185+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db non clean shutdown detected
+2015-02-09 15:30:32.185+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-02-09 15:30:32.186+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names non clean shutdown detected
+2015-02-09 15:30:32.186+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=114b)
+2015-02-09 15:30:32.187+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db non clean shutdown detected
+2015-02-09 15:30:32.187+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=10b)
+2015-02-09 15:30:32.188+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings non clean shutdown detected
+2015-02-09 15:30:32.189+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings] brickCount=0 brickSize=22016b mappedMem=22020096b (storeSize=128b)
+2015-02-09 15:30:32.190+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys non clean shutdown detected
+2015-02-09 15:30:32.190+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=342b)
+2015-02-09 15:30:32.190+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index non clean shutdown detected
+2015-02-09 15:30:32.191+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=72b)
+2015-02-09 15:30:32.191+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays non clean shutdown detected
+2015-02-09 15:30:32.192+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays] brickCount=0 brickSize=25088b mappedMem=25165824b (storeSize=128b)
+2015-02-09 15:30:32.208+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db non clean shutdown detected
+2015-02-09 15:30:32.208+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db] brickCount=0 brickSize=25133b mappedMem=25165824b (storeSize=41b)
+2015-02-09 15:30:32.209+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db non clean shutdown detected
+2015-02-09 15:30:32.209+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db] brickCount=0 brickSize=293590b mappedMem=29360128b (storeSize=0b)
+2015-02-09 15:30:32.210+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels non clean shutdown detected
+2015-02-09 15:30:32.210+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2015-02-09 15:30:32.210+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db non clean shutdown detected
+2015-02-09 15:30:32.211+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db] brickCount=0 brickSize=6285b mappedMem=6291456b (storeSize=15b)
+2015-02-09 15:30:32.211+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db non clean shutdown detected
+2015-02-09 15:30:32.212+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2015-02-09 15:30:32.212+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db non clean shutdown detected
+2015-02-09 15:30:32.212+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
+2015-02-09 15:30:32.213+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore non clean shutdown detected
+2015-02-09 15:30:32.214+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=81b)
+2015-02-09 15:30:32.270+0000 WARN  [o.n.k.a.i.i.LuceneLabelScanStore]: Corrupt lucene scan store index found. Preparing to rebuild.
+java.io.FileNotFoundException: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\schema\label\lucene\_1.cfs (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open(Native Method) ~[na:1.7.0_55]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:241) ~[na:1.7.0_55]
+	at org.apache.lucene.store.SimpleFSDirectory$SimpleFSIndexInput$Descriptor.<init>(SimpleFSDirectory.java:71) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.store.SimpleFSDirectory$SimpleFSIndexInput.<init>(SimpleFSDirectory.java:98) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.store.SimpleFSDirectory.openInput(SimpleFSDirectory.java:58) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:65) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentCoreReaders.<init>(SegmentCoreReaders.java:75) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:116) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:94) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader.<init>(DirectoryReader.java:105) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.ReadOnlyDirectoryReader.<init>(ReadOnlyDirectoryReader.java:27) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader$1.doBody(DirectoryReader.java:78) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:709) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:72) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:256) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.api.impl.index.LuceneLabelScanStore.init(LuceneLabelScanStore.java:249) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:483) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:72) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.start(NeoStoreXaDataSource.java:417) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:507) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:115) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.start(XaDataSourceManager.java:164) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:507) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:115) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:343) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:59) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.recovery.StoreRecoverer.recover(StoreRecoverer.java:123) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.preflight.PerformRecoveryIfNecessary.run(PerformRecoveryIfNecessary.java:65) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.preflight.PreFlightTasks.run(PreFlightTasks.java:71) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.AbstractNeoServer.runPreflightTasks(AbstractNeoServer.java:381) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:178) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.desktop.runtime.DatabaseActions.start(DatabaseActions.java:68) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.desktop.ui.StartDatabaseActionListener$1.run(StartDatabaseActionListener.java:61) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312) [na:1.7.0_55]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733) [na:1.7.0_55]
+	at java.awt.EventQueue.access$200(EventQueue.java:103) [na:1.7.0_55]
+	at java.awt.EventQueue$3.run(EventQueue.java:694) [na:1.7.0_55]
+	at java.awt.EventQueue$3.run(EventQueue.java:692) [na:1.7.0_55]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.7.0_55]
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76) [na:1.7.0_55]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91) [na:1.7.0_55]
+2015-02-09 15:30:32.295+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.295+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.296+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.296+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.296+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.296+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.297+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.297+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.297+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.298+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.298+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.298+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.298+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.299+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:32.302+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore hit=0 miss=2 switches=0 ooe=0
+2015-02-09 15:30:32.315+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2015-02-09 15:30:32.315+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2015-02-09 15:30:32.316+0000 ERROR [o.n.k.EmbeddedGraphDatabase]: Startup failed: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@144006c' was successfully initialized, but failed to start. Please see attached cause exception.: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@5f0124' was successfully initialized, but failed to start. Please see attached cause exception.: Component 'org.neo4j.kernel.api.impl.index.LuceneLabelScanStore@169ea64' failed to initialize. Please see attached cause exception.: Label scan store is corrupted, and needs to be rebuilt. To trigger a rebuild, ensure the database is stopped, delete the files in 'D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\schema\label\lucene', and then start the database again.
+2015-02-09 15:30:32.316+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2015-02-09 15:30:41.921+0000 INFO  [o.n.s.CommunityNeoServer]: Setting startup timeout to: 120000ms based on -1
+2015-02-09 15:30:41.921+0000 INFO  [o.n.s.CommunityNeoServer]: Setting startup timeout to: 120000ms based on -1
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.InternalAbstractGraphDatabase]: No locking implementation specified, defaulting to 'community'
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.InternalAbstractGraphDatabase]: No locking implementation specified, defaulting to 'community'
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=24M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=24M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipgroupstore.db.mapped_memory=0M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipgroupstore.db.mapped_memory=0M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=6M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=6M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=28M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=28M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=21M
+2015-02-09 15:30:41.927+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=21M
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=24M
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=24M
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2015-02-09 15:30:41.928+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 4.00 GB
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 4.00 GB
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 3.59 GB
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 3.59 GB
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 222.49 MB
+2015-02-09 15:30:41.929+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 222.49 MB
+2015-02-09 15:30:41.930+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 4.00 GB
+2015-02-09 15:30:41.930+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 4.00 GB
+2015-02-09 15:30:41.930+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 3.96 GB
+2015-02-09 15:30:41.930+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 3.96 GB
+2015-02-09 15:30:41.930+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2015-02-09 15:30:41.930+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2015-02-09 15:30:41.930+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 69.78 MB
+2015-02-09 15:30:41.930+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 69.78 MB
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 126.50 MB
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 126.50 MB
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 455.25 MB
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 455.25 MB
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.25 MB, used=1.10 MB, max=48.00 MB, threshold=0.00 B
+2015-02-09 15:30:41.931+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.25 MB, used=1.10 MB, max=48.00 MB, threshold=0.00 B
+2015-02-09 15:30:41.932+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=76.50 MB, used=42.10 MB, max=155.75 MB, threshold=?
+2015-02-09 15:30:41.932+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=76.50 MB, used=42.10 MB, max=155.75 MB, threshold=?
+2015-02-09 15:30:41.932+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=7.50 MB, used=352.08 kB, max=7.50 MB, threshold=?
+2015-02-09 15:30:41.932+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=7.50 MB, used=352.08 kB, max=7.50 MB, threshold=?
+2015-02-09 15:30:41.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=42.50 MB, used=15.56 MB, max=341.25 MB, threshold=0.00 B
+2015-02-09 15:30:41.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=42.50 MB, used=15.56 MB, max=341.25 MB, threshold=0.00 B
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=33.50 MB, used=28.38 MB, max=64.00 MB, threshold=0.00 B
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=33.50 MB, used=28.38 MB, max=64.00 MB, threshold=0.00 B
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 8; version: 6.2; arch: x86; cpus: 4
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 8; version: 6.2; arch: x86; cpus: 4
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 7384@HyperWarp
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 7384@HyperWarp
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Prague
+2015-02-09 15:30:41.934+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Prague
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) Server VM
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) Server VM
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.55-b03
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.55-b03
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot Tiered Compilers
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot Tiered Compilers
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_(x86)_neo4j_community_bin_neo4j-community.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe, -Dexe4j.processCommFile=C:\Users\Pavle\AppData\Local\Temp\e4j_p7384.tmp, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;D:\app\Pavle\product\11.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Graphviz2.38\bin\dot.exe;D:\Personal\Projekti\Graphics programming\ArcSynthesis\Tutorial 0.3.8\premake4.exe;;c:\program files (x86)\java\jdk1.7.0_55\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Xmx512m]
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_(x86)_neo4j_community_bin_neo4j-community.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe, -Dexe4j.processCommFile=C:\Users\Pavle\AppData\Local\Temp\e4j_p7384.tmp, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp;D:\app\Pavle\product\11.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Graphviz2.38\bin\dot.exe;D:\Personal\Projekti\Graphics programming\ArcSynthesis\Tutorial 0.3.8\premake4.exe;;c:\program files (x86)\java\jdk1.7.0_55\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false, -Xmx512m]
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2015-02-09 15:30:41.935+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2015-02-09 15:30:41.940+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/localedata.jar
+2015-02-09 15:30:41.940+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/localedata.jar
+2015-02-09 15:30:41.940+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/dnsns.jar
+2015-02-09 15:30:41.940+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/dnsns.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/bin/neo4j-desktop-2.1.7.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/bin/neo4j-desktop-2.1.7.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunpkcs11.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunpkcs11.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] C:\Program Files (x86)\Neo4j Community\.install4j\i4jruntime.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] C:\Program Files (x86)\Neo4j Community\.install4j\i4jruntime.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunjce_provider.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunjce_provider.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\sunrsasign.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\sunrsasign.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\classes
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\classes
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/jaccess.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/jaccess.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] C:\Program Files (x86)\Neo4j Community\bin\neo4j-desktop-2.1.7.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] C:\Program Files (x86)\Neo4j Community\bin\neo4j-desktop-2.1.7.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/bin/
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/bin/
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunec.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunec.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/.install4j/i4jruntime.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/C:/Program%20Files%20(x86)/Neo4j%20Community/.install4j/i4jruntime.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\resources.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\resources.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\charsets.jar
+2015-02-09 15:30:41.941+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\charsets.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/zipfs.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/zipfs.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunmscapi.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/sunmscapi.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\rt.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\rt.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jce.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jce.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/access-bridge-32.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/C:/Program%20Files%20(x86)/Java/jdk1.7.0_55/jre/lib/ext/access-bridge-32.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jfr.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jfr.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jsse.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] C:\Program Files (x86)\Java\jdk1.7.0_55\jre\lib\jsse.jar
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2015-02-09 15:30:41.942+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2015-02-09 15:30:41.943+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\ProgramData\Oracle\Java\javapath
+2015-02-09 15:30:41.943+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\ProgramData\Oracle\Java\javapath
+2015-02-09 15:30:41.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+2015-02-09 15:30:41.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+2015-02-09 15:30:41.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin
+2015-02-09 15:30:41.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin
+2015-02-09 15:30:41.945+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp
+2015-02-09 15:30:41.945+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\libnvvp
+2015-02-09 15:30:41.946+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\app\Pavle\product\11.2.0\client_1\BIN
+2015-02-09 15:30:41.946+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\app\Pavle\product\11.2.0\client_1\BIN
+2015-02-09 15:30:41.946+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2015-02-09 15:30:41.946+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2015-02-09 15:30:41.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2015-02-09 15:30:41.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2015-02-09 15:30:41.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2015-02-09 15:30:41.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2015-02-09 15:30:41.948+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2015-02-09 15:30:41.948+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\WindowsPowerShell\v1.0
+2015-02-09 15:30:41.948+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft\Web Platform Installer
+2015-02-09 15:30:41.948+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft\Web Platform Installer
+2015-02-09 15:30:41.949+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0
+2015-02-09 15:30:41.949+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0
+2015-02-09 15:30:41.950+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit
+2015-02-09 15:30:41.950+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit
+2015-02-09 15:30:41.951+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft SQL Server\110\Tools\Binn
+2015-02-09 15:30:41.951+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files\Microsoft SQL Server\110\Tools\Binn
+2015-02-09 15:30:41.951+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Git\cmd
+2015-02-09 15:30:41.951+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Git\cmd
+2015-02-09 15:30:41.952+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin
+2015-02-09 15:30:41.952+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin
+2015-02-09 15:30:41.952+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Windows Live\Shared
+2015-02-09 15:30:41.952+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Windows Live\Shared
+2015-02-09 15:30:41.953+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Graphviz2.38\bin\dot.exe
+2015-02-09 15:30:41.953+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Graphviz2.38\bin\dot.exe
+2015-02-09 15:30:41.953+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Personal\Projekti\Graphics programming\ArcSynthesis\Tutorial 0.3.8\premake4.exe
+2015-02-09 15:30:41.953+0000 INFO  [o.n.k.i.DiagnosticsManager]: D:\Personal\Projekti\Graphics programming\ArcSynthesis\Tutorial 0.3.8\premake4.exe
+2015-02-09 15:30:41.954+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Neo4j Community\bin
+2015-02-09 15:30:41.954+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Neo4j Community\bin
+2015-02-09 15:30:41.954+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Java\jdk1.7.0_55\jre\bin
+2015-02-09 15:30:41.954+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Java\jdk1.7.0_55\jre\bin
+2015-02-09 15:30:41.954+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2015-02-09 15:30:41.954+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.moduleName = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.moduleName = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.processCommFile = C:\Users\Pavle\AppData\Local\Temp\e4j_p7384.tmp
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.processCommFile = C:\Users\Pavle\AppData\Local\Temp\e4j_p7384.tmp
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.semaphoreName = Local\c:_program_files_(x86)_neo4j_community_bin_neo4j-community.exe
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.semaphoreName = Local\c:_program_files_(x86)_neo4j_community_bin_neo4j-community.exe
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = c:\program files (x86)\java\jdk1.7.0_55\jre\bin
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = c:\program files (x86)\java\jdk1.7.0_55\jre\bin
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country.format = RS
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country.format = RS
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.consoleCodepage = cp0
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.consoleCodepage = cp0
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script = 
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script = 
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = 
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = 
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.exeDir = C:\Program Files (x86)\Neo4j Community\bin\
+2015-02-09 15:30:41.955+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.exeDir = C:\Program Files (x86)\Neo4j Community\bin\
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = C:\Program Files (x86)\Neo4j Community\bin
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = C:\Program Files (x86)\Neo4j Community\bin
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script.format = Latn
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script.format = Latn
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.tempDir = 
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.tempDir = 
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = Cp1250
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = Cp1250
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.awt.enableExtraMouseButtons = true
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.awt.enableExtraMouseButtons = true
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.launcherId = 24
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.launcherId = 24
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot Tiered Compilers
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot Tiered Compilers
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.isInstall4j = true
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.isInstall4j = true
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.swt = false
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.swt = false
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = C:\Users\Pavle
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = C:\Users\Pavle
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Prague
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Prague
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = Cp1250
+2015-02-09 15:30:41.956+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = Cp1250
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.launcher = desktop
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.launcher = desktop
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = Pavle
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = Pavle
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 32
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 32
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.launchName = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.launchName = C:\Program Files (x86)\Neo4j Community\bin\neo4j-community.exe
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language.format = sr
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language.format = sr
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.unextractedPosition = 0
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: exe4j.unextractedPosition = 0
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.appDir = C:\Program Files (x86)\Neo4j Community\
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: install4j.appDir = C:\Program Files (x86)\Neo4j Community\
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2015-02-09 15:30:41.957+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2015-02-09 15:30:41.958+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2015-02-09 15:30:41.958+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2015-02-09 15:30:41.958+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2015-02-09 15:30:41.958+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2015-02-09 15:30:41.958+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+2015-02-09 15:30:41.958+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+2015-02-09 15:30:41.958+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2015-02-09 15:30:41.958+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2015-02-09 15:30:42.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2015-02-09 15:30:42.002+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Kernel Debug Network Adapter:
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Kernel Debug Network Adapter:
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller:
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller:
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:9455:d891:20fa:eca3%3
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:9455:d891:20fa:eca3%3
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter:
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter:
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.0.11
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.0.11
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:a992:df9d:c154:a79%4
+2015-02-09 15:30:42.003+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:a992:df9d:c154:a79%4
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth Device (Personal Area Network):
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth Device (Personal Area Network):
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:7ca8:f72d:f991:76f3%5
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:7ca8:f72d:f991:76f3%5
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth Device (RFCOMM Protocol TDI):
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth Device (RFCOMM Protocol TDI):
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:c8b7:f5eb:d591:9b9d%7
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:c8b7:f5eb:d591:9b9d%7
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Teredo Tunneling Pseudo-Interface:
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Teredo Tunneling Pseudo-Interface:
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 2001:0:9d38:6abd:343f:399:3f57:fff4
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 2001:0:9d38:6abd:343f:399:3f57:fff4
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:343f:399:3f57:fff4%8
+2015-02-09 15:30:42.004+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:343f:399:3f57:fff4%8
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #2:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #2:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:5efe:c0a8:b%9
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:5efe:c0a8:b%9
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #5:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #5:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-Virtual WiFi Filter Driver-0000:
+2015-02-09 15:30:42.005+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-Virtual WiFi Filter Driver-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-Native WiFi Filter Driver-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-Native WiFi Filter Driver-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-QoS Packet Scheduler-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-QoS Packet Scheduler-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Qualcomm Atheros AR9485WB-EG Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2015-02-09 15:30:42.006+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2015-02-09 15:30:42.013+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names non clean shutdown detected
+2015-02-09 15:30:42.013+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names non clean shutdown detected
+2015-02-09 15:30:42.014+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-02-09 15:30:42.014+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2015-02-09 15:30:42.014+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db non clean shutdown detected
+2015-02-09 15:30:42.014+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db non clean shutdown detected
+2015-02-09 15:30:42.014+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-02-09 15:30:42.014+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2015-02-09 15:30:42.015+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names non clean shutdown detected
+2015-02-09 15:30:42.015+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names non clean shutdown detected
+2015-02-09 15:30:42.015+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=114b)
+2015-02-09 15:30:42.015+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=114b)
+2015-02-09 15:30:42.016+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db non clean shutdown detected
+2015-02-09 15:30:42.016+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db non clean shutdown detected
+2015-02-09 15:30:42.016+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=10b)
+2015-02-09 15:30:42.016+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=10b)
+2015-02-09 15:30:42.017+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings non clean shutdown detected
+2015-02-09 15:30:42.017+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings non clean shutdown detected
+2015-02-09 15:30:42.017+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings] brickCount=0 brickSize=22016b mappedMem=22020096b (storeSize=128b)
+2015-02-09 15:30:42.017+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings] brickCount=0 brickSize=22016b mappedMem=22020096b (storeSize=128b)
+2015-02-09 15:30:42.018+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys non clean shutdown detected
+2015-02-09 15:30:42.018+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys non clean shutdown detected
+2015-02-09 15:30:42.018+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=342b)
+2015-02-09 15:30:42.018+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=342b)
+2015-02-09 15:30:42.018+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index non clean shutdown detected
+2015-02-09 15:30:42.018+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index non clean shutdown detected
+2015-02-09 15:30:42.019+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=72b)
+2015-02-09 15:30:42.019+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=72b)
+2015-02-09 15:30:42.019+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays non clean shutdown detected
+2015-02-09 15:30:42.019+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays non clean shutdown detected
+2015-02-09 15:30:42.019+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays] brickCount=0 brickSize=25088b mappedMem=25165824b (storeSize=128b)
+2015-02-09 15:30:42.019+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays] brickCount=0 brickSize=25088b mappedMem=25165824b (storeSize=128b)
+2015-02-09 15:30:42.020+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db non clean shutdown detected
+2015-02-09 15:30:42.020+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db non clean shutdown detected
+2015-02-09 15:30:42.020+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db] brickCount=0 brickSize=25133b mappedMem=25165824b (storeSize=41b)
+2015-02-09 15:30:42.020+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db] brickCount=0 brickSize=25133b mappedMem=25165824b (storeSize=41b)
+2015-02-09 15:30:42.021+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db non clean shutdown detected
+2015-02-09 15:30:42.021+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db non clean shutdown detected
+2015-02-09 15:30:42.021+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db] brickCount=0 brickSize=293590b mappedMem=29360128b (storeSize=0b)
+2015-02-09 15:30:42.021+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db] brickCount=0 brickSize=293590b mappedMem=29360128b (storeSize=0b)
+2015-02-09 15:30:42.021+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels non clean shutdown detected
+2015-02-09 15:30:42.021+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels non clean shutdown detected
+2015-02-09 15:30:42.022+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2015-02-09 15:30:42.022+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2015-02-09 15:30:42.022+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db non clean shutdown detected
+2015-02-09 15:30:42.022+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db non clean shutdown detected
+2015-02-09 15:30:42.022+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db] brickCount=0 brickSize=6285b mappedMem=6291456b (storeSize=15b)
+2015-02-09 15:30:42.022+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db] brickCount=0 brickSize=6285b mappedMem=6291456b (storeSize=15b)
+2015-02-09 15:30:42.023+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db non clean shutdown detected
+2015-02-09 15:30:42.023+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db non clean shutdown detected
+2015-02-09 15:30:42.023+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2015-02-09 15:30:42.023+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2015-02-09 15:30:42.024+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db non clean shutdown detected
+2015-02-09 15:30:42.024+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db non clean shutdown detected
+2015-02-09 15:30:42.024+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
+2015-02-09 15:30:42.024+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=25b)
+2015-02-09 15:30:42.024+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore non clean shutdown detected
+2015-02-09 15:30:42.024+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore non clean shutdown detected
+2015-02-09 15:30:42.025+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=81b)
+2015-02-09 15:30:42.025+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=81b)
+2015-02-09 15:30:42.033+0000 WARN  [o.n.k.a.i.i.LuceneLabelScanStore]: Corrupt lucene scan store index found. Preparing to rebuild.
+java.io.FileNotFoundException: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\schema\label\lucene\_1.cfs (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open(Native Method) ~[na:1.7.0_55]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:241) ~[na:1.7.0_55]
+	at org.apache.lucene.store.SimpleFSDirectory$SimpleFSIndexInput$Descriptor.<init>(SimpleFSDirectory.java:71) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.store.SimpleFSDirectory$SimpleFSIndexInput.<init>(SimpleFSDirectory.java:98) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.store.SimpleFSDirectory.openInput(SimpleFSDirectory.java:58) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:65) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentCoreReaders.<init>(SegmentCoreReaders.java:75) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:116) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:94) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader.<init>(DirectoryReader.java:105) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.ReadOnlyDirectoryReader.<init>(ReadOnlyDirectoryReader.java:27) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader$1.doBody(DirectoryReader.java:78) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:709) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:72) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:256) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.api.impl.index.LuceneLabelScanStore.init(LuceneLabelScanStore.java:249) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:483) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:72) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.start(NeoStoreXaDataSource.java:417) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:507) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:115) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.start(XaDataSourceManager.java:164) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:507) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:115) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:343) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:59) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.recovery.StoreRecoverer.recover(StoreRecoverer.java:123) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.preflight.PerformRecoveryIfNecessary.run(PerformRecoveryIfNecessary.java:65) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.preflight.PreFlightTasks.run(PreFlightTasks.java:71) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.AbstractNeoServer.runPreflightTasks(AbstractNeoServer.java:381) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:178) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.desktop.runtime.DatabaseActions.start(DatabaseActions.java:68) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.desktop.ui.StartDatabaseActionListener$1.run(StartDatabaseActionListener.java:61) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312) [na:1.7.0_55]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733) [na:1.7.0_55]
+	at java.awt.EventQueue.access$200(EventQueue.java:103) [na:1.7.0_55]
+	at java.awt.EventQueue$3.run(EventQueue.java:694) [na:1.7.0_55]
+	at java.awt.EventQueue$3.run(EventQueue.java:692) [na:1.7.0_55]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.7.0_55]
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76) [na:1.7.0_55]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91) [na:1.7.0_55]
+2015-02-09 15:30:42.033+0000 WARN  [o.n.k.a.i.i.LuceneLabelScanStore]: Corrupt lucene scan store index found. Preparing to rebuild.
+java.io.FileNotFoundException: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\schema\label\lucene\_1.cfs (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open(Native Method) ~[na:1.7.0_55]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:241) ~[na:1.7.0_55]
+	at org.apache.lucene.store.SimpleFSDirectory$SimpleFSIndexInput$Descriptor.<init>(SimpleFSDirectory.java:71) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.store.SimpleFSDirectory$SimpleFSIndexInput.<init>(SimpleFSDirectory.java:98) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.store.SimpleFSDirectory.openInput(SimpleFSDirectory.java:58) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:65) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentCoreReaders.<init>(SegmentCoreReaders.java:75) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:116) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:94) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader.<init>(DirectoryReader.java:105) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.ReadOnlyDirectoryReader.<init>(ReadOnlyDirectoryReader.java:27) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader$1.doBody(DirectoryReader.java:78) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:709) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:72) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:256) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.api.impl.index.LuceneLabelScanStore.init(LuceneLabelScanStore.java:249) ~[neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:483) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:72) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.start(NeoStoreXaDataSource.java:417) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:507) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:115) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.start(XaDataSourceManager.java:164) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:507) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:115) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:343) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:59) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.kernel.impl.recovery.StoreRecoverer.recover(StoreRecoverer.java:123) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.preflight.PerformRecoveryIfNecessary.run(PerformRecoveryIfNecessary.java:65) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.preflight.PreFlightTasks.run(PreFlightTasks.java:71) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.AbstractNeoServer.runPreflightTasks(AbstractNeoServer.java:381) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:178) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.desktop.runtime.DatabaseActions.start(DatabaseActions.java:68) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at org.neo4j.desktop.ui.StartDatabaseActionListener$1.run(StartDatabaseActionListener.java:61) [neo4j-desktop-2.1.7.jar:2.1.7]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312) [na:1.7.0_55]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733) [na:1.7.0_55]
+	at java.awt.EventQueue.access$200(EventQueue.java:103) [na:1.7.0_55]
+	at java.awt.EventQueue$3.run(EventQueue.java:694) [na:1.7.0_55]
+	at java.awt.EventQueue$3.run(EventQueue.java:692) [na:1.7.0_55]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.7.0_55]
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76) [na:1.7.0_55]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138) [na:1.7.0_55]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91) [na:1.7.0_55]
+2015-02-09 15:30:42.050+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.050+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.050+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.050+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.050+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.050+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.051+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.051+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.051+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.051+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2015-02-09 15:30:42.068+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore hit=0 miss=2 switches=0 ooe=0
+2015-02-09 15:30:42.068+0000 INFO  [o.n.k.i.n.s.StoreFactory]: D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\neostore hit=0 miss=2 switches=0 ooe=0
+2015-02-09 15:30:42.068+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2015-02-09 15:30:42.068+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2015-02-09 15:30:42.068+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2015-02-09 15:30:42.068+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2015-02-09 15:30:42.069+0000 ERROR [o.n.k.EmbeddedGraphDatabase]: Startup failed: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@117e9b9' was successfully initialized, but failed to start. Please see attached cause exception.: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@1df1db7' was successfully initialized, but failed to start. Please see attached cause exception.: Component 'org.neo4j.kernel.api.impl.index.LuceneLabelScanStore@127d9' failed to initialize. Please see attached cause exception.: Label scan store is corrupted, and needs to be rebuilt. To trigger a rebuild, ensure the database is stopped, delete the files in 'D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\schema\label\lucene', and then start the database again.
+2015-02-09 15:30:42.069+0000 ERROR [o.n.k.EmbeddedGraphDatabase]: Startup failed: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@117e9b9' was successfully initialized, but failed to start. Please see attached cause exception.: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@1df1db7' was successfully initialized, but failed to start. Please see attached cause exception.: Component 'org.neo4j.kernel.api.impl.index.LuceneLabelScanStore@127d9' failed to initialize. Please see attached cause exception.: Label scan store is corrupted, and needs to be rebuilt. To trigger a rebuild, ensure the database is stopped, delete the files in 'D:\Personal\Fakultet\IV godina\Napredne baze podataka\Projekat\JeeBerryHome3\VeselaJetra\GraphDB\schema\label\lucene', and then start the database again.
+2015-02-09 15:30:42.069+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2015-02-09 15:30:42.069+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
